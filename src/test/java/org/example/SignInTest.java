@@ -1,4 +1,4 @@
-package tests;
+package org.example;
 
 import org.example.SignInPage;
 import org.junit.After;

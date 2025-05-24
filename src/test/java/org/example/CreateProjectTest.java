@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.CreateProjectPage;
-import org.example.SignInPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
