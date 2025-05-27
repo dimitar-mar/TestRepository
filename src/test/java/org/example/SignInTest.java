@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.SignInPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,9 +20,7 @@ public class SignInTest {
 
     @Test
     public void testSignIn() {
-        signInPage.enterEmail("test@example.com");
-        signInPage.enterPassword("password123");
-        signInPage.clickSignIn();
+        signInPage.signIn("test@example.com","password123");
 
         // Assert logic should go here (e.g. check for dashboard page or logout button)
     }

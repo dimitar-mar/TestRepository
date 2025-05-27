@@ -21,9 +21,7 @@ public class CreateProjectTest {
         createProjectPage = new CreateProjectPage(driver);
 
         // Sign in before creating project
-        signInPage.enterEmail("test@example.com");
-        signInPage.enterPassword("password123");
-        signInPage.clickSignIn();
+        signInPage.signIn("test@examole.com","password123");
     }
 
     @Test
